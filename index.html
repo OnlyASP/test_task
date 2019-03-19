@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Task</title>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <section class="search_section">
+
+<!-- 
+  При добавлении формы отправки, отправка не произойдет пока не будет получен пользовательский ввод (атрибут тега INPUT - "required") 
+-->
+    <!-- <form action="/url_answer_page"> -->
+      <div class="search_bar">
+
+  <!--  <div class="new_search">
+          <select class="field_inp">
+            <option value="text_field" selected>Text field</option>
+            <option value="number_field">Number field</option>
+          </select>
+
+          <select class="operation_inp">
+            <option value="Containing" selected>Containing</option>
+            <option value="Exactly matching">Exactly matching</option>
+            <option value="Begins with">Begins with</option>
+            <option value="Ends with">Ends with</option>
+          </select>
+
+          <input type="text" name="" class="user_inp" required>
+          <button class="del_btn">x</button>
+        </div> -->
+
+      </div>
+
+      <div>
+        <button id="add_btn">+ Add condition</button>
+        <hr>
+        <button type="submit" id="apply_btn">Apply</button>
+        <button id="clear_btn">Clear filter</button>
+      </div>
+    <!-- </form> -->
+  </section>
+
+  <div class="result_block">
+    <pre id="result"></pre>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
